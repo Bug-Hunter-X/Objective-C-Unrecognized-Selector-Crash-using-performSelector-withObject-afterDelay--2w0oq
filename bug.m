@@ -1,0 +1,1 @@
+This error occurs when you use the `performSelector:withObject:afterDelay:` method with a selector that doesn't exist on the target object.  The most common cause is a typo in the selector name, or attempting to call a selector on a nil object. This leads to an unrecognized selector exception at runtime, which will crash your application.
